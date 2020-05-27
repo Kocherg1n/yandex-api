@@ -1,0 +1,82 @@
+.modal {
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: -1px 1px 21px -5px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    z-index: 20;
+    overflow: hidden;
+    background: #ffffff;
+    display: none;
+
+    &__header {
+        padding: 15px 30px 15px 15px;
+        background-color: #ff8663;
+        position: relative;
+        min-height: 58px;
+    }
+
+    &__location {
+        color: #ffffff;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    &__messages {
+        padding: 15px;
+        width: 400px;
+        height: 160px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    &__close-btn {
+        position: absolute;
+        right: 6px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+    //&__msg-list {
+    //    padding: 15px;
+    //    height: 160px;
+    //}
+    //
+    //&__msg-item {
+    //    margin-bottom: 15px;
+    //}
+    //
+    //&__msg-data {
+    //    display: flex;
+    //}
+    //
+    //&__msg-name {
+    //    color: #4f4f4f;
+    //    font-size: 16px;
+    //    font-weight: 500;
+    //    margin-right: 10px;
+    //}
+
+    &__msg-location {
+        margin-right: 10px;
+    }
+
+    &__msg-date {
+        font-size: 16px;
+        color: #4f4f4f;
+    }
+
+    &__msg-text {
+        margin-top: 8px;
+    }
+
+    &__form {
+        margin-top: 25px;
+    }
+
+    &__show {
+        display: block;
+    }
+}

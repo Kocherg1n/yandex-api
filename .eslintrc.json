@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": [ "src/**/*.js" ],
+      "extends": [
+        "standard"
+      ],
+      "globals": {
+        "document": false,
+        "ymaps": true
+      },
+      "rules": {
+        "indent": [
+          "error",
+          4
+        ],
+        "semi": [
+          "error",
+          "never"
+        ],
+        "quotes": [
+          "error",
+          "single"
+        ]
+      }
+    }
+  ]
+}
